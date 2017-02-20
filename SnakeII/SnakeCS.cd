@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SnakeII.Food">
+    <Position X="3.5" Y="2.75" Width="1.5" />
+    <InheritanceLine Type="SnakeII.GameObject" FixedToPoint="true">
+      <Path>
+        <Point X="3.25" Y="1.566" />
+        <Point X="2.875" Y="1.566" />
+        <Point X="2.875" Y="4.358" />
+        <Point X="4.125" Y="4.358" />
+        <Point X="4.125" Y="3.983" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Food.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SnakeII.Game" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAiAAAAAAAAAAEAAAAAAAAAAAAAAEAAAAAAI=</HashCode>
+      <FileName>Game.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SnakeII.GameObject">
+    <Position X="3.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAICAAAAAAgAAAAAQAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>GameObject.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SnakeII.Point" Collapsed="true">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAABgAAAAAAA=</HashCode>
+      <FileName>Point.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SnakeII.Program" Collapsed="true">
+    <Position X="9.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SnakeII.Wall">
+    <Position X="6.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Wall.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SnakeII.Worm">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAIAAAACAAAAAAIAAAAAAAABAA=</HashCode>
+      <FileName>Worm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="SnakeII.IDrawable" Collapsed="true">
+    <Position X="9.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IDrawable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
